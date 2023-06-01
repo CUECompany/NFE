@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body
+{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-image: url(img/illustration-of-planet-earth-with-trees-ecology-concept-ai-generative.jpg);
+    background-position: center;
+    background-size: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.icon-logo
+{
+    max-width: 340px;
+}
+
+.icon 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.sleng
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 60px;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 220px;
+}
+
+.navbar-bottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+
+a
+{
+    text-decoration: none;
+    color:white;
+    padding:15px;
+}
+
+.link
+{
+    border: solid 1px white;
+    background-color:transparent;
+    border-radius: 20px;
+}
+
+.link:hover
+{
+    border: solid 1px;
+    background-color: rgb(35, 150, 226);
+    color: white;
+    transition:0.3s;
+}
+
+.icon-logo:hover
+{
+    background-color: rgb(35, 150, 226);
+    border-radius: 20px;
+    transition: 0.3s;
+    padding: 20px;
+}
